@@ -2,7 +2,8 @@ SELECT
     job_title_short,
     job_location
 FROM
-    job_postings_fact;
+    job_postings_fact
+LIMIT 5;
 
 /*
 Label new column as follows:
