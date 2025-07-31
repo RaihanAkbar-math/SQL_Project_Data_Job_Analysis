@@ -1,4 +1,4 @@
--- Here are the top 25 country for Data Analyst
+-- Here are the top 10 country for Data Analyst
 
 SELECT
     job_country,
@@ -15,4 +15,4 @@ GROUP BY
 ORDER BY
     average_salary DESC,
     job_count DESC
-LIMIT 25;
+LIMIT 10;
